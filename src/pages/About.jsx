@@ -8,11 +8,11 @@ const About = () => {
         <h1 className="font-semibold text-2xl my-4 font-rob">About Me</h1>
         <p className="text-gray-700 font-rob tracking-wide ">
           I am a dedicated, organized and methodical individual. I have good
-          interpersonal skills, i'm an excellent team worker and i'm keen and
-          very willing to learn and develop new skills. I am reliable and
-          dependable and often seek new responsibilities within a wide range of
-          employment areas. I have an active and dynamic approach to work and
-          getting things done. I am determined and decisive.
+          interpersonal skills, I'm an excellent team worker, keen and very
+          willing to learn and develop new skills. I am reliable and dependable
+          and often seek new responsibilities within a wide range of employment
+          areas. I have an active and dynamic approach to work and getting
+          things done. I am determined and decisive.
         </p>
 
         <Socials />

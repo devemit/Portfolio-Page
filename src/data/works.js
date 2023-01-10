@@ -21,7 +21,7 @@ export default [
     title: "Image Slider",
     imgUrl:
       "https://user-images.githubusercontent.com/107273888/201748650-e1661084-9c72-4aa9-b369-db220063fd1e.png",
-    tech: ["HTML", "Javascript", "CSS"],
+    tech: ["HTML", "CSS", "Javascript"],
   },
   {
     title: "Guess My Number",
