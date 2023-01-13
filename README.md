@@ -23,6 +23,8 @@
 - Javascript
 - React
 - Tailwind CSS
+- Responsive CSS
 - React Router
 - React Icons
 - Visual Studio Code
+- Fully Responsive(mobile)
