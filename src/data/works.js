@@ -45,7 +45,7 @@ export default [
     imgUrl:
       "https://user-images.githubusercontent.com/107273888/201750253-6e8ab3a4-bdd4-4e09-99c2-4803b02755f7.png",
     tech: ["React", "Tailwind"],
-    liveSite: "https://github.com/devemit/Movieland-app",
+    liveSite: "https://github.com/devemit/Rockets",
     seeCode: "https://github.com/devemit/Rockets",
   },
 
