@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital,wght@0,400;1,200&family=Nunito+Sans&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital,wght@0,400;1,200&family=Nunito+Sans&family=Roboto&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,7 +10,7 @@
 }
 @layer base {
   body {
-    background-image: url('https://meshdesignstudio.com/wp-content/uploads/2018/02/mesh-background-portfolio-lglines.jpg');
+    background-image: url("https://meshdesignstudio.com/wp-content/uploads/2018/02/mesh-background-portfolio-lglines.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
