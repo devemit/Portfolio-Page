@@ -7,7 +7,7 @@ const About = () => {
       <div className="rounded-xl shadow-2xl p-10 text-center bg-slate-100 my-8">
         <h1 className="font-semibold text-2xl my-4">About Me</h1>
         <p className="text-gray-700  tracking-wide ">
-          I am a dedicated, organized and methodical individual. I have good
+          I am a dedicated, organized and methodical individual with good
           interpersonal skills, I'm an excellent team worker, keen and very
           willing to learn and develop new skills. I am reliable and dependable
           and often seek new responsibilities within a wide range of employment
