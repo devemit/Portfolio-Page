@@ -14,14 +14,14 @@ const WorkItem = ({ imgUrl, title, tech, liveSite, seeCode }) => {
         className="w-full h-36 md:h-60 object-cover rounded-xl shadow-xl cursor-pointer transform transition duration-500 hover:scale-105"
       />
 
-      <h3 className="text-lg md:text-xl ml-1 mb-2 md:mb-3 font-semibold ">
+      <h3 className="text-lg md:text-xl text-center md:mb-3 font-semibold ">
         {title}
       </h3>
-      <div>
+      <div className="text-center">
         <p>
           {tech.map((item) => (
             <span
-              className="bg-gray-900 py-1 px-8 ml-1 text-gray-300"
+              className="bg-gray-900 py-1 px-5 ml-1  text-gray-300"
               key={item}
             >
               {item}
@@ -34,14 +34,14 @@ const WorkItem = ({ imgUrl, title, tech, liveSite, seeCode }) => {
             href={seeCode}
             target="_blank"
           >
-            <AiFillGithub size={23} />
+            <AiFillGithub size={30} />
           </a>
           <a
             className="p-2 text-gray-900 hover:text-slate-800"
             href={liveSite}
             target="_blank"
           >
-            <GoLinkExternal size={23} />
+            <GoLinkExternal size={30} />
           </a>
         </div>
       </div>
