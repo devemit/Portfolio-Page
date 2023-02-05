@@ -8,12 +8,20 @@ export default [
     seeCode: "https://github.com/devemit/Portfolio-Page",
   },
   {
-    title: "MovieLand",
+    title: "Linktree Clone",
     imgUrl:
-      "https://user-images.githubusercontent.com/107273888/203129036-ba8fabd0-16e3-451f-b0ec-32b4acdac35f.png",
+      "https://user-images.githubusercontent.com/107273888/212404531-60b20eaf-c810-4a91-a85e-f7347926cb9d.png",
     tech: ["React", "Tailwind CSS"],
-    liveSite: "https://github.com/devemit/Movieland-app",
-    seeCode: "https://github.com/devemit/Movieland-app",
+    liveSite: "https://linktree-mitko.netlify.app/",
+    seeCode: "https://github.com/devemit/linktree-clone",
+  },
+  {
+    title: "E-Commerce Website",
+    imgUrl:
+      "https://user-images.githubusercontent.com/107273888/216852332-81f2cf26-0ebe-4e2a-baaa-e76c507df2da.png",
+    tech: ["React", "Tailwind CSS"],
+    liveSite: "https://mitkos-shop-site.netlify.app",
+    seeCode: "https://github.com/devemit/E-commerce-Website",
   },
   {
     title: "Weather App",
@@ -24,24 +32,25 @@ export default [
     seeCode: "https://github.com/devemit/Weather-app-JS",
   },
   {
-    title: "Bankist Application",
+    title: "MovieLand",
+    imgUrl:
+      "https://user-images.githubusercontent.com/107273888/203129036-ba8fabd0-16e3-451f-b0ec-32b4acdac35f.png",
+    tech: ["React", "Tailwind CSS"],
+    liveSite: "https://github.com/devemit/Movieland-app",
+    seeCode: "https://github.com/devemit/Movieland-app",
+  },
+
+  {
+    title: "Bankist Application/large screen only",
     imgUrl:
       "https://user-images.githubusercontent.com/107273888/201747376-c37ffa5f-6d65-4fba-83ee-590830b138ca.png",
     tech: ["HTML", "CSS", "JS"],
     liveSite: "https://bankbalance.netlify.app/",
     seeCode: "https://github.com/devemit/Bankist-App",
   },
-  {
-    title: "E-Commerce Website",
-    imgUrl:
-      "https://user-images.githubusercontent.com/107273888/216839419-0553e24b-81b9-482b-8418-9b573c3814db.png",
-    tech: ["React", "Tailwind CSS"],
-    liveSite: "https://mitkos-shop-site.netlify.app",
-    seeCode: "https://github.com/devemit/E-commerce-Website",
-  },
 
   {
-    title: "Guess My Number",
+    title: "Guess My Number/large screen only",
     imgUrl:
       "https://user-images.githubusercontent.com/107273888/201740583-daa5fa4b-6104-4783-a503-69932af121b0.png",
     tech: ["HTML", "CSS", "JS"],
@@ -50,7 +59,7 @@ export default [
   },
 
   {
-    title: "Pig Game",
+    title: "Pig Game/large screen only",
     imgUrl:
       "https://user-images.githubusercontent.com/107273888/201744049-6fee110f-6fd5-4630-9b74-79c0e78fc26c.png",
     tech: ["HTML", "CSS", "JS"],

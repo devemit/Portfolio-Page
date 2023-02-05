@@ -32,6 +32,10 @@ const About = () => {
         <div className="w-full bg-gray-200 h-1.5 rounded-md leading-10">
           <div className="w-11/12 bg-indigo-600 h-1.5 rounded-md leading-10"></div>
         </div>
+        <h2 className="text-gray-700 font-medium leading-10 ">TypeScript</h2>
+        <div className="w-full bg-gray-200 h-1.5 rounded-md leading-10">
+          <div className="w-11/12 bg-indigo-600 h-1.5 rounded-md leading-10"></div>
+        </div>
         <h2 className="text-gray-700 font-medium leading-10 ">React</h2>
         <div className="w-full bg-gray-200 h-1.5 rounded-md leading-10">
           <div className="w-11/12 bg-indigo-600 h-1.5 rounded-md leading-10"></div>
