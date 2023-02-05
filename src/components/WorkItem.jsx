@@ -6,7 +6,7 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 
 const WorkItem = ({ imgUrl, title, tech, liveSite, seeCode }) => {
   return (
-    <div className="py-4 px-10">
+    <div className="py-4 px-10 text-center">
       <LazyLoadImage
         effect="blur"
         src={imgUrl}
