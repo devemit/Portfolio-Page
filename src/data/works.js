@@ -8,6 +8,14 @@ export default [
     seeCode: "https://github.com/devemit/Portfolio-Page",
   },
   {
+    title: "Cinemania/Netflix UI",
+    imgUrl:
+      "https://user-images.githubusercontent.com/107273888/217918647-c52b31f1-a7be-4edb-a1e2-d6eba1305442.png",
+    tech: ["Typescript", "React", "Tailwind CSS"],
+    liveSite: "https://cinemaniamovs.netlify.app/",
+    seeCode: "https://github.com/devemit/cinemania-movies",
+  },
+  {
     title: "Linktree Clone",
     imgUrl:
       "https://user-images.githubusercontent.com/107273888/212404531-60b20eaf-c810-4a91-a85e-f7347926cb9d.png",
