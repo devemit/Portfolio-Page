@@ -6,12 +6,12 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 
 const WorkItem = ({ imgUrl, title, tech, liveSite, seeCode }) => {
   return (
-    <div className="py-4 px-10 text-center">
+    <div className="p-8 text-center w-full h-full">
       <LazyLoadImage
         effect="blur"
         src={imgUrl}
         alt={title}
-        className="w-full h-36 md:h-60 object-cover rounded-xl shadow-xl cursor-pointer transform transition duration-500 hover:scale-105"
+        className="object-cover rounded-md shadow-xl cursor-pointer transform transition duration-500 hover:scale-105"
       />
 
       <h3 className="text-lg md:text-xl text-center md:mb-3 font-semibold ">
@@ -21,7 +21,7 @@ const WorkItem = ({ imgUrl, title, tech, liveSite, seeCode }) => {
         <p>
           {tech.map((item) => (
             <span
-              className="bg-gray-900 py-1 px-5 ml-1  text-gray-300"
+              className="bg-gray-900 py-1 px-5 ml-1 rounded text-gray-300"
               key={item}
             >
               {item}
