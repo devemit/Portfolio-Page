@@ -8,6 +8,14 @@ export default [
     seeCode: "https://github.com/devemit/cinemania-movies",
   },
   {
+    title: "Crypto DEFI",
+    imgUrl:
+      "https://user-images.githubusercontent.com/107273888/218598621-557e03c0-f16e-42bc-aafa-d67373c9943d.png",
+    tech: ["TS", "React", "Tailwind CSS"],
+    liveSite: "https://cryptowebdefi.netlify.app/",
+    seeCode: "https://github.com/devemit/crypto-react",
+  },
+  {
     title: "Portfolio Website",
     imgUrl:
       "https://user-images.githubusercontent.com/107273888/212379246-16fbfe8e-ae06-43ce-ac24-e884d7010e2e.png",
