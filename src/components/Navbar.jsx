@@ -15,13 +15,22 @@ const Navbar = () => {
       <SiMonzo size={40} className="z-30" />
 
       <ul className="hidden md:flex font-rob uppercase">
-        <Link className="p-4 focus:font-bold focus:outline-none" to="/">
+        <Link
+          className="p-4 hover:font-semibold focus:font-bold focus:outline-none"
+          to="/"
+        >
           Home
         </Link>
-        <Link className="p-4 focus:font-bold focus:outline-none" to="/About">
+        <Link
+          className="p-4 hover:font-semibold focus:font-bold focus:outline-none"
+          to="/About"
+        >
           About Me
         </Link>
-        <Link className="p-4 focus:font-bold focus:outline-none" to="/Projects">
+        <Link
+          className="p-4 hover:font-semibold focus:font-bold focus:outline-none"
+          to="/Projects"
+        >
           Projects
         </Link>
       </ul>
@@ -33,7 +42,7 @@ const Navbar = () => {
         onClick={() => setNav(false)}
         className={
           nav
-            ? "fixed px-6 top-0 left-0 flex flex-col bg-white opacity-90 rounded-b-3xl w-[100%] h-[30%] uppercase ease-in-out duration-500 pt-24 z-10"
+            ? "fixed px-6 top-0 left-0 flex flex-col bg-white opacity-90 rounded-b-3xl w-[100%] h-[35%] uppercase ease-in-out duration-500 pt-24 z-10"
             : "fixed top-[-100%] ease-in-out"
         }
       >

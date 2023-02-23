@@ -11,14 +11,15 @@ const Socials = () => {
       <a target="_blank" href="https://github.com/devemit">
         <GrGithub size={35} className="mr-8 hover:text-orange-500" />
       </a>
-      {/* <a
-        href="mitkocv.pdf"
+      <a
+        href="mitkoCV.pdf"
         target="_blank"
+        download
         rel="noreferrer"
-        className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2"
+        className="text-gray-900 bg-transparent border border-gray-900 hover:bg-gray-900 hover:text-white focus:outline-none font-medium rounded-lg text-base px-5 py-1.5 mr-2 mb-2"
       >
         <span>Resume</span>
-      </a> */}
+      </a>
     </div>
   );
 };
