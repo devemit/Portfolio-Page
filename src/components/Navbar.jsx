@@ -42,8 +42,8 @@ const Navbar = () => {
         onClick={() => setNav(false)}
         className={
           nav
-            ? "fixed px-6 top-0 left-0 flex flex-col bg-white opacity-90 rounded-b-3xl w-[100%] h-[35%] uppercase ease-in-out duration-500 pt-24 z-10"
-            : "fixed top-[-100%] ease-in-out"
+            ? "fixed px-6 top-0 left-0 flex flex-col bg-white opacity-90 rounded-b-3xl w-[100%] h-[35%] uppercase ease-in-out duration-700 pt-24 z-10"
+            : "fixed px-6 top-[-100%] left-0 flex flex-col w-[100%] h-[35%] ease-in-out duration-700 pt-24 z-10"
         }
       >
         <Link

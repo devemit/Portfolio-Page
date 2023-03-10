@@ -18,7 +18,7 @@ const Home = () => {
           <div className="py-10">
             <Link
               to="/Projects"
-              className="px-12 py-2.5  tracking-wider bg-orange-500 rounded-md shadow-2xl font-semibold uppercase text-lg md:text-2xl md:px-18 md:py-4 hover:bg-orange-600"
+              className="px-12 py-2.5 tracking-wider bg-amber-400 rounded-md shadow-2xl font-semibold uppercase text-lg md:text-2xl md:px-18 md:py-4 hover:bg-amber-500"
             >
               Projects
             </Link>
