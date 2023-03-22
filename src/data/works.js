@@ -23,6 +23,14 @@ export default [
     liveSite: "https://mitko-portfolio.netlify.app/",
     seeCode: "https://github.com/devemit/Portfolio-Page",
   },
+  {
+    title: "E-Commerce Website",
+    imgUrl:
+      "https://user-images.githubusercontent.com/107273888/226775835-86d65498-a4f5-4216-8379-c348160de964.png",
+    tech: ["React", "Tailwind CSS"],
+    liveSite: "https://mitkos-shop-site.netlify.app",
+    seeCode: "https://github.com/devemit/E-commerce-Website",
+  },
 
   {
     title: "Linktree Clone",
@@ -41,14 +49,7 @@ export default [
     liveSite: "https://meteo-today.netlify.app/",
     seeCode: "https://github.com/devemit/Weather-app-JS",
   },
-  {
-    title: "E-Commerce Website",
-    imgUrl:
-      "https://user-images.githubusercontent.com/107273888/218154828-429ec3db-d89c-4054-9c66-4cfee39156de.png",
-    tech: ["React", "Tailwind CSS"],
-    liveSite: "https://mitkos-shop-site.netlify.app",
-    seeCode: "https://github.com/devemit/E-commerce-Website",
-  },
+
   {
     title: "Acme Rockets",
     imgUrl:
