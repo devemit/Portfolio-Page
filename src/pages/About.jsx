@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       <Stack />
-      <div className="p-6 flex flex-col lg:flex-row gap-4 max-w-6xl mx-auto ">
+      <div className="p-6 flex flex-col lg:flex-row gap-4 max-w-6xl mx-auto h-[1000px] ">
         <div className="max-h-[550px] rounded-xl shadow-2xl px-6 py-4 text-center max-w-lg mx-auto dark:bg-[#1f1b24] bg-white my-8">
           <h1 className="font-semibold text-2xl my-4 dark:text-slate-200  text-slate-900 ">
             About Me
