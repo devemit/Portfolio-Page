@@ -1,42 +1,68 @@
 import { Link } from "react-router-dom";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { MdDarkMode, MdOutlineLightMode } from "react-icons/md";
 import { SiMonzo } from "react-icons/si";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const [theme, setTheme] = useState("light");
+
+  useEffect(() => {
+    if (theme === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [theme]);
+
+  const handleTheme = () => {
+    setTheme(theme === "dark" ? "light" : "dark");
+  };
 
   const handleNav = () => {
     setNav(!nav);
   };
 
   return (
-    <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4">
-      <SiMonzo size={40} className="z-30" />
+    <div className="flex justify-between items-center h-24  mx-auto px-20 bg-white w-full shadow-xl">
+      <SiMonzo size={40} className="z-30 text-slate-900" />
+      <button
+        className="absolute right-0 px-12 text-slate-900 z-50"
+        onClick={handleTheme}
+      >
+        {theme === "light" ? (
+          <MdDarkMode size={22} />
+        ) : (
+          <MdOutlineLightMode size={22} />
+        )}
+      </button>
 
       <ul className="hidden md:flex font-rob uppercase">
         <Link
-          className="p-4 hover:font-semibold focus:font-bold focus:outline-none"
+          className="p-4 hover:font-semibold focus:font-bold focus:outline-none text-slate-900"
           to="/"
         >
           Home
         </Link>
         <Link
-          className="p-4 hover:font-semibold focus:font-bold focus:outline-none"
+          className="p-4 hover:font-semibold focus:font-bold focus:outline-none text-slate-900"
           to="/About"
         >
           About Me
         </Link>
         <Link
-          className="p-4 hover:font-semibold focus:font-bold focus:outline-none"
+          className="p-4 hover:font-semibold focus:font-bold focus:outline-none text-slate-900"
           to="/Projects"
         >
           Projects
         </Link>
       </ul>
+
       <div className="block md:hidden z-50" onClick={handleNav}>
         {nav ? <AiOutlineClose size={23} /> : <AiOutlineMenu size={23} />}
       </div>
+
       {/* mobile  */}
       <ul
         onClick={() => setNav(false)}
@@ -47,19 +73,19 @@ const Navbar = () => {
         }
       >
         <Link
-          className="block py-2 px-6 border-b border-b-gray-300 text-gray-800 font-semibold focus:font-bold focus:outline-none hover:font-bold"
+          className="block py-2 px-6 border-b border-b-gray-300 text-slate-900 font-semibold focus:font-bold focus:outline-none hover:font-bold"
           to="/"
         >
           Home
         </Link>
         <Link
-          className="block py-2 px-6 border-b border-b-gray-300 text-gray-800 font-semibold focus:font-bold focus:outline-none hover:font-bold"
+          className="block py-2 px-6 border-b border-b-gray-300 text-slate-900 font-semibold focus:font-bold focus:outline-none hover:font-bold"
           to="/About"
         >
           About
         </Link>
         <Link
-          className="block py-2 px-6 border-b border-b-gray-300 text-gray-800 font-semibold focus:font-bold focus:outline-none hover:font-bold"
+          className="block py-2 px-6 border-b border-b-gray-300 text-slate-900 font-semibold focus:font-bold focus:outline-none hover:font-bold"
           to="/Projects"
         >
           Projects

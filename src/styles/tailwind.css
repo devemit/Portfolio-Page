@@ -6,14 +6,28 @@
 @layer base {
   html {
     font-family: lato;
+    min-height: 100%;
+    overflow-y: scroll;
   }
 }
 @layer base {
+  body {
+    min-height: 100%;
+  }
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey;
+}
+
+/* @layer base {
   body {
     background-image: url("https://meshdesignstudio.com/wp-content/uploads/2018/02/mesh-background-portfolio-lglines.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
   }
-}
+} */

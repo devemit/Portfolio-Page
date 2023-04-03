@@ -8,6 +8,14 @@ export default [
     seeCode: "https://github.com/devemit/cinemania-movies",
   },
   {
+    title: "Reform Beach&Bar",
+    imgUrl:
+      "https://user-images.githubusercontent.com/107273888/229608163-2a1aeed4-a133-4549-98cd-35f5abe72a35.png",
+    tech: ["TS", "React", "CSS"],
+    liveSite: "https://reformbeachbar.netlify.app/",
+    seeCode: "https://github.com/devemit/reform",
+  },
+  {
     title: "Crypto DEFI",
     imgUrl:
       "https://user-images.githubusercontent.com/107273888/218598621-557e03c0-f16e-42bc-aafa-d67373c9943d.png",

@@ -7,14 +7,14 @@ import Projects from "./pages/Projects";
 
 const App = () => {
   return (
-    <>
+    <div className="bg-[#FFFFFF] dark:bg-[#121212]">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
-    </>
+    </div>
   );
 };
 
