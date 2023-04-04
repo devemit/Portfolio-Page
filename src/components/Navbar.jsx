@@ -28,7 +28,7 @@ const Navbar = () => {
     <div className="flex justify-between items-center h-24  mx-auto px-20 bg-white w-full shadow-xl">
       <SiMonzo size={40} className="z-30 text-slate-900" />
       <button
-        className="absolute right-0 px-12 text-slate-900 z-50"
+        className="absolute right-10 text-slate-900 z-50"
         onClick={handleTheme}
       >
         {theme === "light" ? (
@@ -68,7 +68,7 @@ const Navbar = () => {
         onClick={() => setNav(false)}
         className={
           nav
-            ? "fixed px-6 top-0 left-0 flex flex-col bg-white opacity-90 rounded-b-3xl w-[100%] h-[35%] uppercase ease-in-out duration-700 pt-24 z-10"
+            ? "fixed px-6 top-0 left-0 flex flex-col bg-white rounded-b-3xl w-[100%] h-[35%] uppercase ease-in-out duration-700 pt-24 z-10"
             : "fixed px-6 top-[-100%] left-0 flex flex-col w-[100%] h-[35%] ease-in-out duration-700 pt-24 z-10"
         }
       >
